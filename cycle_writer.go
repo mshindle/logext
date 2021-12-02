@@ -8,7 +8,7 @@ import (
 	"syscall"
 )
 
-// CycleWriter defines an io.Reader/io.Writer the will close and
+// CycleWriter defines an io.Reader/io.Writer that will close and
 // reopen (i.e. cycle) a file either programmatically or upon
 // a given os.Signal.
 type CycleWriter struct {
